@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Footer</title>
+  <!-- Add Bootstrap CSS link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    /* Customize the footer style here */
+    /* Example styles below */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 30px 0;
+    }
+
+    .footer h3 {
+      color: #fff;
+      margin-bottom: 30px;
+    }
+
+    .footer p {
+      color: #fff;
+      margin: 0;
+    }
+
+    .footer ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer ul li {
+      margin-bottom: 10px;
+    }
+
+    .footer ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .footer ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .footer .social-icons {
+      margin-top: 20px;
+    }
+
+    .footer .social-icons a {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .footer .social-icons a:hover {
+      background-color: #007bff;
+    }
+  </style>
+</head>
+<body>
+  <!-- Your website content here -->
+ 
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>About Us</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis, erat non consectetur hendrerit.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Connect with Us</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Add Font Awesome CSS (for social icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Add Bootstrap JS script link -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+

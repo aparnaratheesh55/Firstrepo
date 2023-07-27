@@ -1,0 +1,37 @@
+/* Add your custom CSS styles here */
+.bmi-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.bmi-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bmi-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.bmi-container label,
+.bmi-container input {
+  margin-bottom: 10px;
+}
+
+.bmi-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bmi-result {
+  text-align: center;
+  margin-top: 20px;
+}
